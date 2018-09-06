@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - PoporQRCodeMacos (0.0.1)
+
+DEPENDENCIES:
+  - Masonry
+  - PoporQRCodeMacos (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  PoporQRCodeMacos:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PoporQRCodeMacos: 56f723d38ae082337c0ad1b80f72947d325e8dae
+
+PODFILE CHECKSUM: c998b7f9b514eaaee2b78382e11af6fe96c4590b
+
+COCOAPODS: 1.5.3

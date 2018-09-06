@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'PoporQRCodeMacos' do
+    pod 'PoporQRCodeMacos', :path => '../'
+    
+    pod 'Masonry'
+    
+    target 'PoporQRCodeMacos_Tests' do
+        inherit! :search_paths
+        
+        
+    end
+end
