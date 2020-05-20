@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005DDA58568C1E651FB3473274CA4612 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C9B0647D30E6E92B4875F102015616 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09E52C2173629622D65E1F2B28F84CAB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B156CA749FDE50B086A64BD2CD6067A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B39B001AE1FE6FDC17EDB105BCDBDC5 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C83D8EF461206F759D82624AA342986 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20956BE0BEFA14B031072C87A9B6606B /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24C642BD804595FE6D4595886439B16A /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A951E3F3DF8668389103B424BE3D787 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320D2DB96D0835B5B83B20E7B47A9C5D /* Pods-PoporQRCodeMacos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7454F8869A7C0BD281C876A419863DC0 /* Pods-PoporQRCodeMacos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322FE73C1C4D815A927C403B3E481B47 /* PoporQRCodeMacos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3692E0AF11DC56B191EBA34B8ECDEB7D /* PoporQRCodeMacos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33499DBBB8C688325FED11EC0E18F04A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F9F80B24DF71C91CB2D7C1832A8018D /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44CF60358A3BF311183411B661CF3349 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		48BAFFE71E9C822C7634E9473ACD5876 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBD72A9BF0370ABD45819C75FEDED53 /* AppKit.framework */; };
+		4990C0C69EA04508000806F8CA7B3F84 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1A2797B9CF2141E3B5E02C0D75F8D4 /* Cocoa.framework */; };
+		4B24375D89A0B270873843C21774C96F /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CEE210B09C2FC0C2459828CD0CA92DE /* ZwcQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E71937D3BDEE16AE049F46B5D7F6B98 /* ZwcQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E57C7644F7F05C6080042BAFD008F64 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9568B513E3836D013DEA023EA87E7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805818382EC8FACDECA446EAF94C1711 /* Foundation.framework */; };
+		4F186153C738F55B49A2066ABB098FB6 /* PoporQRCodeMacos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D051AA0E58A01BC32444489E41E4C8E /* PoporQRCodeMacos-dummy.m */; };
+		55A810DF1FB2E66406E7FE48A0EFA64E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F58EE14F850AFFA28A10D628A49E0FA /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		777C71FF35AAEA25734F202DE4815EBF /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E84CAF5C2C5D54C2176C1BA170D612 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		891EC40BEA8A7C92936E8AD3B8B1BC41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1A2797B9CF2141E3B5E02C0D75F8D4 /* Cocoa.framework */; };
+		99E0A7FEA761271F55849ECA98B02B8F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C0980AA52691ABC80593A3088554773 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1A2797B9CF2141E3B5E02C0D75F8D4 /* Cocoa.framework */; };
+		A64A6E4B57C58DDC7A6DC65732F9DCD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1A2797B9CF2141E3B5E02C0D75F8D4 /* Cocoa.framework */; };
+		AB9A02FFAEF5477BF7F3A41D3CF335C3 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B2469FEA8E86B711F76EDD4E9F506721 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B4C35A8AEBBCD0D6719ED72189524245 /* ZwcQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BF4BCADF1878EBF22FDDBB4F48936 /* ZwcQRCode.m */; };
+		CBACFBB061CDD5A487DE7BB2F0393FCB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CBE138C9314CAA0E82654CE129CFE751 /* Pods-PoporQRCodeMacos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F843FE3E2E7BF5377B9DB8213BA90 /* Pods-PoporQRCodeMacos-dummy.m */; };
+		CC47E1F57A1A7ACAD69CBF462CF87631 /* Pods-PoporQRCodeMacos_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8184F5FF7E8B7D65DFD9F3C5B508AF0 /* Pods-PoporQRCodeMacos_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85C6EC14C89006F9FBDA55D7D2930EE /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3C6187711CE977F9E784B09A57619A3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ECE22C517038D31DE1F24C3382A8C005 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F2595601538496B4D926C249B076F45C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FDEF8DED3F7A10002678AE99D00A9708 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
+		FE960D77CBD38107C83B0D56BB1FBA0B /* Pods-PoporQRCodeMacos_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F41A75B12292C33C2B74585CBACF5F7 /* Pods-PoporQRCodeMacos_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03A6B1B1B680B167CA96E985DB88D76A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F7767283B7A1D81B7F651F51D14CEC;
+			remoteInfo = Masonry;
+		};
+		24007F2421B25E7AD9155BB550578247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EFB87C482CE885A89D6DF2E0325009C;
+			remoteInfo = "Pods-PoporQRCodeMacos";
+		};
+		7ACAEBAFF030EFCFB75FDD82678C732C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF395D24BA9DD24A569229CF83CF4DC9;
+			remoteInfo = PoporQRCodeMacos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040E1EA11C4DA932343880E5D9BDB598 /* Pods_PoporQRCodeMacos_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoporQRCodeMacos_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D986A9143AD772923202CE9BCCF39A /* Pods-PoporQRCodeMacos_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporQRCodeMacos_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		0AC7C05C772B43394CFEF6798FE7DFB7 /* Pods-PoporQRCodeMacos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporQRCodeMacos-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DAED8B9644B12606972D2D1D02DF564 /* Pods-PoporQRCodeMacos_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporQRCodeMacos_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DF80D0D583733F3F706E5B5755E5E31 /* Pods-PoporQRCodeMacos_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporQRCodeMacos_Tests-resources.sh"; sourceTree = "<group>"; };
+		0F92F6F542DF609475B8FFD4FEC4B907 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188BF4BCADF1878EBF22FDDBB4F48936 /* ZwcQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZwcQRCode.m; path = PoporQRCodeMacos/Classes/ZwcQRCode.m; sourceTree = "<group>"; };
+		19A8F59925AEACC79512CDEC292D7013 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		213BB93EF196130DF443E0263F551809 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		29CCA902E07E1E0518D9F9DDEB88AC81 /* Pods-PoporQRCodeMacos_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporQRCodeMacos_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		3692E0AF11DC56B191EBA34B8ECDEB7D /* PoporQRCodeMacos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporQRCodeMacos-umbrella.h"; sourceTree = "<group>"; };
+		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3D051AA0E58A01BC32444489E41E4C8E /* PoporQRCodeMacos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporQRCodeMacos-dummy.m"; sourceTree = "<group>"; };
+		48BDDC37713C2FE447111906C71CBF0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBF0A3ABDE97986B9E58CA96D5351C2 /* Pods_PoporQRCodeMacos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoporQRCodeMacos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D48912C6F063E3E7A348517F5A78DC7 /* Pods-PoporQRCodeMacos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporQRCodeMacos.debug.xcconfig"; sourceTree = "<group>"; };
+		503F843FE3E2E7BF5377B9DB8213BA90 /* Pods-PoporQRCodeMacos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporQRCodeMacos-dummy.m"; sourceTree = "<group>"; };
+		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		578975C61D2B0523047B595C62EEFDEA /* Pods-PoporQRCodeMacos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporQRCodeMacos-resources.sh"; sourceTree = "<group>"; };
+		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		71869963C060B5DF6939551F526BD368 /* Pods-PoporQRCodeMacos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporQRCodeMacos.modulemap"; sourceTree = "<group>"; };
+		7454F8869A7C0BD281C876A419863DC0 /* Pods-PoporQRCodeMacos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporQRCodeMacos-umbrella.h"; sourceTree = "<group>"; };
+		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7E71937D3BDEE16AE049F46B5D7F6B98 /* ZwcQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZwcQRCode.h; path = PoporQRCodeMacos/Classes/ZwcQRCode.h; sourceTree = "<group>"; };
+		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		7F41A75B12292C33C2B74585CBACF5F7 /* Pods-PoporQRCodeMacos_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporQRCodeMacos_Tests-dummy.m"; sourceTree = "<group>"; };
+		805818382EC8FACDECA446EAF94C1711 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		9A1A2797B9CF2141E3B5E02C0D75F8D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A061A4C3C822628CA4B1DF9E7687663B /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E4AE7E3C57955C036ACF4AACF617FD /* PoporQRCodeMacos.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PoporQRCodeMacos.podspec; sourceTree = "<group>"; };
+		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		A6508A539E0AB3A123118484C9C77AC6 /* Pods-PoporQRCodeMacos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporQRCodeMacos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		AFEFAEE97AD3AF79D89A82C1DCA58B39 /* PoporQRCodeMacos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoporQRCodeMacos.xcconfig; sourceTree = "<group>"; };
+		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		B67741CA9C191C35F0FF3DB1636F51CB /* Pods-PoporQRCodeMacos_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporQRCodeMacos_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB3903CFB8640E83583C145A3244B4A9 /* Pods-PoporQRCodeMacos_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporQRCodeMacos_Tests.modulemap"; sourceTree = "<group>"; };
+		BDAE9C78CA1243845D0939221F59B3CB /* Pods-PoporQRCodeMacos_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporQRCodeMacos_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D76A8B3ACD2D48D50155C063C288B776 /* PoporQRCodeMacos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporQRCodeMacos-prefix.pch"; sourceTree = "<group>"; };
+		D8184F5FF7E8B7D65DFD9F3C5B508AF0 /* Pods-PoporQRCodeMacos_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporQRCodeMacos_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DC32A674E36E229B014CD0813193A84C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DDBD72A9BF0370ABD45819C75FEDED53 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		F4CF29B37B11F02ABF62E87CEE03FBEB /* Pods-PoporQRCodeMacos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporQRCodeMacos.release.xcconfig"; sourceTree = "<group>"; };
+		F5E699CBDEFC2FB0F08C4515F48E8B25 /* PoporQRCodeMacos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoporQRCodeMacos.modulemap; sourceTree = "<group>"; };
+		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FA8053BE1F78E38305DD70B3A17E2D99 /* Pods-PoporQRCodeMacos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporQRCodeMacos-frameworks.sh"; sourceTree = "<group>"; };
+		FACC7A4E67C3DE771C5307397D5B8671 /* PoporQRCodeMacos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PoporQRCodeMacos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D152EF9CCA0BA8C8AF405A62F0A441A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BAFFE71E9C822C7634E9473ACD5876 /* AppKit.framework in Frameworks */,
+				A64A6E4B57C58DDC7A6DC65732F9DCD0 /* Cocoa.framework in Frameworks */,
+				4E9568B513E3836D013DEA023EA87E7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FE723021E18086EEA6C3DEBD4888E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0980AA52691ABC80593A3088554773 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7821144164FCAB70651FA4B0756AA3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4990C0C69EA04508000806F8CA7B3F84 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71D4E5F77B2DAF337BF69ED4CD65792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891EC40BEA8A7C92936E8AD3B8B1BC41 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B31AEC743BBB6A030C9A9DF348F0074 /* PoporQRCodeMacos */ = {
+			isa = PBXGroup;
+			children = (
+				7E71937D3BDEE16AE049F46B5D7F6B98 /* ZwcQRCode.h */,
+				188BF4BCADF1878EBF22FDDBB4F48936 /* ZwcQRCode.m */,
+				649F32E9ABE132FD9DDE55DB0BD72746 /* Pod */,
+				AA11A0EF82F2AE2E0483361488D53F25 /* Support Files */,
+			);
+			name = PoporQRCodeMacos;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		368506A50F4D1445149B0CD169C12CB7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B31AEC743BBB6A030C9A9DF348F0074 /* PoporQRCodeMacos */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3A68D56C9517ADBA43FA100A2A9E7225 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4780CD45A261BAD7A35D66A060E5BB4 /* Pods-PoporQRCodeMacos */,
+				F2B2350FAB2A9F66CD57B640C5EDBEB5 /* Pods-PoporQRCodeMacos_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52D79000D76EF5C32D7FAB3A679AC4F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A061A4C3C822628CA4B1DF9E7687663B /* Masonry.framework */,
+				4CBF0A3ABDE97986B9E58CA96D5351C2 /* Pods_PoporQRCodeMacos.framework */,
+				040E1EA11C4DA932343880E5D9BDB598 /* Pods_PoporQRCodeMacos_Tests.framework */,
+				FACC7A4E67C3DE771C5307397D5B8671 /* PoporQRCodeMacos.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		649F32E9ABE132FD9DDE55DB0BD72746 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DC32A674E36E229B014CD0813193A84C /* LICENSE */,
+				A1E4AE7E3C57955C036ACF4AACF617FD /* PoporQRCodeMacos.podspec */,
+				213BB93EF196130DF443E0263F551809 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				368506A50F4D1445149B0CD169C12CB7 /* Development Pods */,
+				96D996393384F21972E2DD81788EE22C /* Frameworks */,
+				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
+				52D79000D76EF5C32D7FAB3A679AC4F8 /* Products */,
+				3A68D56C9517ADBA43FA100A2A9E7225 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96D996393384F21972E2DD81788EE22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F074F0CBF1C089C4BE23866FBAB74B51 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */,
+				537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */,
+				ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */,
+				986CB32629319F7F2256662716334944 /* MASConstraint.m */,
+				77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */,
+				A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */,
+				FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */,
+				C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */,
+				611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */,
+				303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */,
+				AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */,
+				96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */,
+				0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */,
+				1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */,
+				6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */,
+				5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */,
+				B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */,
+				F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */,
+				2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */,
+				7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */,
+				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
+				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
+				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
+				D253588BAFB01A953DA60C10CD597F84 /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		AA11A0EF82F2AE2E0483361488D53F25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F92F6F542DF609475B8FFD4FEC4B907 /* Info.plist */,
+				F5E699CBDEFC2FB0F08C4515F48E8B25 /* PoporQRCodeMacos.modulemap */,
+				AFEFAEE97AD3AF79D89A82C1DCA58B39 /* PoporQRCodeMacos.xcconfig */,
+				3D051AA0E58A01BC32444489E41E4C8E /* PoporQRCodeMacos-dummy.m */,
+				D76A8B3ACD2D48D50155C063C288B776 /* PoporQRCodeMacos-prefix.pch */,
+				3692E0AF11DC56B191EBA34B8ECDEB7D /* PoporQRCodeMacos-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PoporQRCodeMacos";
+			sourceTree = "<group>";
+		};
+		B4780CD45A261BAD7A35D66A060E5BB4 /* Pods-PoporQRCodeMacos */ = {
+			isa = PBXGroup;
+			children = (
+				48BDDC37713C2FE447111906C71CBF0E /* Info.plist */,
+				71869963C060B5DF6939551F526BD368 /* Pods-PoporQRCodeMacos.modulemap */,
+				A6508A539E0AB3A123118484C9C77AC6 /* Pods-PoporQRCodeMacos-acknowledgements.markdown */,
+				0AC7C05C772B43394CFEF6798FE7DFB7 /* Pods-PoporQRCodeMacos-acknowledgements.plist */,
+				503F843FE3E2E7BF5377B9DB8213BA90 /* Pods-PoporQRCodeMacos-dummy.m */,
+				FA8053BE1F78E38305DD70B3A17E2D99 /* Pods-PoporQRCodeMacos-frameworks.sh */,
+				578975C61D2B0523047B595C62EEFDEA /* Pods-PoporQRCodeMacos-resources.sh */,
+				7454F8869A7C0BD281C876A419863DC0 /* Pods-PoporQRCodeMacos-umbrella.h */,
+				4D48912C6F063E3E7A348517F5A78DC7 /* Pods-PoporQRCodeMacos.debug.xcconfig */,
+				F4CF29B37B11F02ABF62E87CEE03FBEB /* Pods-PoporQRCodeMacos.release.xcconfig */,
+			);
+			name = "Pods-PoporQRCodeMacos";
+			path = "Target Support Files/Pods-PoporQRCodeMacos";
+			sourceTree = "<group>";
+		};
+		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */,
+				36C40591902578632718E317104564A2 /* Masonry.modulemap */,
+				3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */,
+				818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */,
+				E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */,
+				1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F074F0CBF1C089C4BE23866FBAB74B51 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				DDBD72A9BF0370ABD45819C75FEDED53 /* AppKit.framework */,
+				9A1A2797B9CF2141E3B5E02C0D75F8D4 /* Cocoa.framework */,
+				805818382EC8FACDECA446EAF94C1711 /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		F2B2350FAB2A9F66CD57B640C5EDBEB5 /* Pods-PoporQRCodeMacos_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				19A8F59925AEACC79512CDEC292D7013 /* Info.plist */,
+				BB3903CFB8640E83583C145A3244B4A9 /* Pods-PoporQRCodeMacos_Tests.modulemap */,
+				B67741CA9C191C35F0FF3DB1636F51CB /* Pods-PoporQRCodeMacos_Tests-acknowledgements.markdown */,
+				0DAED8B9644B12606972D2D1D02DF564 /* Pods-PoporQRCodeMacos_Tests-acknowledgements.plist */,
+				7F41A75B12292C33C2B74585CBACF5F7 /* Pods-PoporQRCodeMacos_Tests-dummy.m */,
+				05D986A9143AD772923202CE9BCCF39A /* Pods-PoporQRCodeMacos_Tests-frameworks.sh */,
+				0DF80D0D583733F3F706E5B5755E5E31 /* Pods-PoporQRCodeMacos_Tests-resources.sh */,
+				D8184F5FF7E8B7D65DFD9F3C5B508AF0 /* Pods-PoporQRCodeMacos_Tests-umbrella.h */,
+				29CCA902E07E1E0518D9F9DDEB88AC81 /* Pods-PoporQRCodeMacos_Tests.debug.xcconfig */,
+				BDAE9C78CA1243845D0939221F59B3CB /* Pods-PoporQRCodeMacos_Tests.release.xcconfig */,
+			);
+			name = "Pods-PoporQRCodeMacos_Tests";
+			path = "Target Support Files/Pods-PoporQRCodeMacos_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25404D9EFC8C2EC4198357DD9E8D40D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC47E1F57A1A7ACAD69CBF462CF87631 /* Pods-PoporQRCodeMacos_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374B97EE4D0F07063CA55669B1E1C568 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E52C2173629622D65E1F2B28F84CAB /* MASCompositeConstraint.h in Headers */,
+				99E0A7FEA761271F55849ECA98B02B8F /* MASConstraint+Private.h in Headers */,
+				2A951E3F3DF8668389103B424BE3D787 /* MASConstraint.h in Headers */,
+				D85C6EC14C89006F9FBDA55D7D2930EE /* MASConstraintMaker.h in Headers */,
+				55A810DF1FB2E66406E7FE48A0EFA64E /* MASLayoutConstraint.h in Headers */,
+				3F9F80B24DF71C91CB2D7C1832A8018D /* Masonry-umbrella.h in Headers */,
+				4B24375D89A0B270873843C21774C96F /* Masonry.h in Headers */,
+				20956BE0BEFA14B031072C87A9B6606B /* MASUtilities.h in Headers */,
+				1B39B001AE1FE6FDC17EDB105BCDBDC5 /* MASViewAttribute.h in Headers */,
+				005DDA58568C1E651FB3473274CA4612 /* MASViewConstraint.h in Headers */,
+				06C9B0647D30E6E92B4875F102015616 /* NSArray+MASAdditions.h in Headers */,
+				4E57C7644F7F05C6080042BAFD008F64 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0B156CA749FDE50B086A64BD2CD6067A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				33499DBBB8C688325FED11EC0E18F04A /* View+MASAdditions.h in Headers */,
+				777C71FF35AAEA25734F202DE4815EBF /* View+MASShorthandAdditions.h in Headers */,
+				24C642BD804595FE6D4595886439B16A /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B613227FF07CDA671C43D63B5C4DC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320D2DB96D0835B5B83B20E7B47A9C5D /* Pods-PoporQRCodeMacos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABC85B53057D7CD6F90048891E6D9C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322FE73C1C4D815A927C403B3E481B47 /* PoporQRCodeMacos-umbrella.h in Headers */,
+				4CEE210B09C2FC0C2459828CD0CA92DE /* ZwcQRCode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30F7767283B7A1D81B7F651F51D14CEC /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C72CD83CAAFBEF960407FDAD3979CF /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				EBF54BD64ABA698530BE02DC338BABB9 /* Sources */,
+				3D152EF9CCA0BA8C8AF405A62F0A441A /* Frameworks */,
+				374B97EE4D0F07063CA55669B1E1C568 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = A061A4C3C822628CA4B1DF9E7687663B /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		953BEF672D6F4857ACFCF0F2E60D4B24 /* Pods-PoporQRCodeMacos_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A807D30C429B8A1672DAE8E1FE79A90F /* Build configuration list for PBXNativeTarget "Pods-PoporQRCodeMacos_Tests" */;
+			buildPhases = (
+				B3A05437BEA9A5C0FB9D60B153276DF6 /* Sources */,
+				7821144164FCAB70651FA4B0756AA3D1 /* Frameworks */,
+				25404D9EFC8C2EC4198357DD9E8D40D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4235B8CEE48698CB7B3D47482991D3AA /* PBXTargetDependency */,
+			);
+			name = "Pods-PoporQRCodeMacos_Tests";
+			productName = "Pods-PoporQRCodeMacos_Tests";
+			productReference = 040E1EA11C4DA932343880E5D9BDB598 /* Pods_PoporQRCodeMacos_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EFB87C482CE885A89D6DF2E0325009C /* Pods-PoporQRCodeMacos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2555A50128AAD716F658A3D09882FA50 /* Build configuration list for PBXNativeTarget "Pods-PoporQRCodeMacos" */;
+			buildPhases = (
+				22CC1A7A4BDDC90E3FEC31E2F2D4A494 /* Sources */,
+				F71D4E5F77B2DAF337BF69ED4CD65792 /* Frameworks */,
+				50B613227FF07CDA671C43D63B5C4DC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56BAA423C3F4E546741B141607965A2 /* PBXTargetDependency */,
+				C6BF31C587C30B24F8BBEB5A42B5C6E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-PoporQRCodeMacos";
+			productName = "Pods-PoporQRCodeMacos";
+			productReference = 4CBF0A3ABDE97986B9E58CA96D5351C2 /* Pods_PoporQRCodeMacos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF395D24BA9DD24A569229CF83CF4DC9 /* PoporQRCodeMacos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72EA6FB40B95E7106EBF20E0BFAA8BF /* Build configuration list for PBXNativeTarget "PoporQRCodeMacos" */;
+			buildPhases = (
+				177D5C1FC2D719CE5F993D0B6BFDC415 /* Sources */,
+				44FE723021E18086EEA6C3DEBD4888E4 /* Frameworks */,
+				AABC85B53057D7CD6F90048891E6D9C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoporQRCodeMacos;
+			productName = PoporQRCodeMacos;
+			productReference = FACC7A4E67C3DE771C5307397D5B8671 /* PoporQRCodeMacos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 52D79000D76EF5C32D7FAB3A679AC4F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F7767283B7A1D81B7F651F51D14CEC /* Masonry */,
+				9EFB87C482CE885A89D6DF2E0325009C /* Pods-PoporQRCodeMacos */,
+				953BEF672D6F4857ACFCF0F2E60D4B24 /* Pods-PoporQRCodeMacos_Tests */,
+				EF395D24BA9DD24A569229CF83CF4DC9 /* PoporQRCodeMacos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177D5C1FC2D719CE5F993D0B6BFDC415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F186153C738F55B49A2066ABB098FB6 /* PoporQRCodeMacos-dummy.m in Sources */,
+				B4C35A8AEBBCD0D6719ED72189524245 /* ZwcQRCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CC1A7A4BDDC90E3FEC31E2F2D4A494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE138C9314CAA0E82654CE129CFE751 /* Pods-PoporQRCodeMacos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A05437BEA9A5C0FB9D60B153276DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE960D77CBD38107C83B0D56BB1FBA0B /* Pods-PoporQRCodeMacos_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF54BD64ABA698530BE02DC338BABB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE22C517038D31DE1F24C3382A8C005 /* MASCompositeConstraint.m in Sources */,
+				44CF60358A3BF311183411B661CF3349 /* MASConstraint.m in Sources */,
+				1C83D8EF461206F759D82624AA342986 /* MASConstraintMaker.m in Sources */,
+				AB9A02FFAEF5477BF7F3A41D3CF335C3 /* MASLayoutConstraint.m in Sources */,
+				FDEF8DED3F7A10002678AE99D00A9708 /* Masonry-dummy.m in Sources */,
+				CBACFBB061CDD5A487DE7BB2F0393FCB /* MASViewAttribute.m in Sources */,
+				F2595601538496B4D926C249B076F45C /* MASViewConstraint.m in Sources */,
+				E3C6187711CE977F9E784B09A57619A3 /* NSArray+MASAdditions.m in Sources */,
+				B2469FEA8E86B711F76EDD4E9F506721 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				6F58EE14F850AFFA28A10D628A49E0FA /* View+MASAdditions.m in Sources */,
+				82E84CAF5C2C5D54C2176C1BA170D612 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4235B8CEE48698CB7B3D47482991D3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PoporQRCodeMacos";
+			target = 9EFB87C482CE885A89D6DF2E0325009C /* Pods-PoporQRCodeMacos */;
+			targetProxy = 24007F2421B25E7AD9155BB550578247 /* PBXContainerItemProxy */;
+		};
+		C6BF31C587C30B24F8BBEB5A42B5C6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PoporQRCodeMacos;
+			target = EF395D24BA9DD24A569229CF83CF4DC9 /* PoporQRCodeMacos */;
+			targetProxy = 7ACAEBAFF030EFCFB75FDD82678C732C /* PBXContainerItemProxy */;
+		};
+		F56BAA423C3F4E546741B141607965A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 30F7767283B7A1D81B7F651F51D14CEC /* Masonry */;
+			targetProxy = 03A6B1B1B680B167CA96E985DB88D76A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CE623CA1217B0875859BB8719BA99C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3902AB43A5EF587874DC32D98E9C9E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39868E065E7674C6ADE344DB59B18B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CCA902E07E1E0518D9F9DDEB88AC81 /* Pods-PoporQRCodeMacos_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporQRCodeMacos_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporQRCodeMacos_Tests/Pods-PoporQRCodeMacos_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6573E2EAA735E5065A0C929C9EEDDABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4CF29B37B11F02ABF62E87CEE03FBEB /* Pods-PoporQRCodeMacos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporQRCodeMacos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporQRCodeMacos/Pods-PoporQRCodeMacos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		885072FBE917853E9C621EA32511C1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98A60D454EDA71285C495E51785FF76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAE9C78CA1243845D0939221F59B3CB /* Pods-PoporQRCodeMacos_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporQRCodeMacos_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporQRCodeMacos_Tests/Pods-PoporQRCodeMacos_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7DB19008FD4B4022C1054139EEF1E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFEFAEE97AD3AF79D89A82C1DCA58B39 /* PoporQRCodeMacos.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/PoporQRCodeMacos/PoporQRCodeMacos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporQRCodeMacos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/PoporQRCodeMacos/PoporQRCodeMacos.modulemap";
+				PRODUCT_MODULE_NAME = PoporQRCodeMacos;
+				PRODUCT_NAME = PoporQRCodeMacos;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E574923E2959CFEF4FEBC7B272DBC6AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F055F5DA4D4DFF8C5FD3BA8D48458AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFEFAEE97AD3AF79D89A82C1DCA58B39 /* PoporQRCodeMacos.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/PoporQRCodeMacos/PoporQRCodeMacos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporQRCodeMacos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/PoporQRCodeMacos/PoporQRCodeMacos.modulemap";
+				PRODUCT_MODULE_NAME = PoporQRCodeMacos;
+				PRODUCT_NAME = PoporQRCodeMacos;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F942ABFDAE9EE5A64EBF56796F36635D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D48912C6F063E3E7A348517F5A78DC7 /* Pods-PoporQRCodeMacos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporQRCodeMacos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporQRCodeMacos/Pods-PoporQRCodeMacos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C72CD83CAAFBEF960407FDAD3979CF /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3902AB43A5EF587874DC32D98E9C9E7A /* Debug */,
+				1CE623CA1217B0875859BB8719BA99C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2555A50128AAD716F658A3D09882FA50 /* Build configuration list for PBXNativeTarget "Pods-PoporQRCodeMacos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F942ABFDAE9EE5A64EBF56796F36635D /* Debug */,
+				6573E2EAA735E5065A0C929C9EEDDABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885072FBE917853E9C621EA32511C1DA /* Debug */,
+				E574923E2959CFEF4FEBC7B272DBC6AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A807D30C429B8A1672DAE8E1FE79A90F /* Build configuration list for PBXNativeTarget "Pods-PoporQRCodeMacos_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39868E065E7674C6ADE344DB59B18B38 /* Debug */,
+				98A60D454EDA71285C495E51785FF76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72EA6FB40B95E7106EBF20E0BFAA8BF /* Build configuration list for PBXNativeTarget "PoporQRCodeMacos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DB19008FD4B4022C1054139EEF1E92 /* Debug */,
+				F055F5DA4D4DFF8C5FD3BA8D48458AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
